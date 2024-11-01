@@ -293,7 +293,7 @@ transform: translateX(100%);
 }
 
 /* -------------------------------------------------------------------------- */
-/*                                Agents                                */
+/*                                The Best                                */
 /* -------------------------------------------------------------------------- */
 .about-us { 
   margin-top: 5%;
@@ -315,3 +315,50 @@ margin-left: 10%;
 display: flex;
  }
 
+/* -------------------------------------------------------------------------- */
+/*                                Services                                */
+/* -------------------------------------------------------------------------- */
+.services { 
+  background-color: #f8f9fa;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.1);
+ 
+
+}
+
+.services-title {
+padding-top: 3rem;
+text-align: center;
+}
+
+.services-container { 
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px; 
+
+
+}
+
+.service { 
+  display: flex;
+  align-items: center;
+margin-bottom: 20px;
+padding: 15px;
+}
+
+.services-card-right { 
+  flex-wrap: wrap;
+  flex: 1;
+  margin-left: 1.5rem;
+}
+
+.services-card-right > p {
+
+}
+
+.services-card-right > a { 
+  text-decoration: none;
+  color: var(--orange);
+ padding-top: 3rem;
+}
