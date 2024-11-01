@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emely Corniel = Website Clone</title>
     <link rel="stylesheet" href="style.css" />
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </head>
   <body>
     <div class="nav-bar">
       <a class="nav-logo" href="#">STATED.</a>
       <ul class="main-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="#">Properties</a></li>
         <li><a href="#">Agents</a></li>
         <li><a href="#">About</a></li>
@@ -69,6 +78,7 @@
       <div class = "container">
 
         <h2 class="properties-title">Properties</h2>
+        <div id = "properties-slider" class="slick">
   
         <div class = "property-block">
 
@@ -81,6 +91,30 @@
           <span class = "property-item">4,250 sqft.</span>
           <p class=" address">480 12th, Unit 14, San Fransisco, CA </p>
           </div>
+
+          <div class="property-container">
+            <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Property 1" />
+      
+            <div class = "property-price">$3,400,0000</div>
+            <span class = "property-item">6 Beds |</span>
+            <span class = "property-item">4 Baths |</span>
+            <span class = "property-item">4,250 sqft.</span>
+            <p class=" address">480 12th, Unit 14, San Fransisco, CA </p>
+            </div>
+
+
+
+          <div class="property-container">
+            <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1734&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Property 1" />
+      
+            <div class = "property-price">$3,400,0000</div>
+            <span class = "property-item">6 Beds |</span>
+            <span class = "property-item">4 Baths |</span>
+            <span class = "property-item">4,250 sqft.</span>
+            <p class=" address">480 12th, Unit 14, San Fransisco, CA </p>
+            </div>
+
+
 
           <div class="property-container">
             <img src="https://images.unsplash.com/photo-1511452885600-a3d2c9148a31?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Property 2" />
@@ -101,7 +135,7 @@
         <p class="address">480 12th, Unit 14, San Fransisco, CA </p>
       </div>
         <button class = "btn btn-long">View All Property Listings</button>
-        
+      </div>
       </div>
       </div>
       <br>
@@ -297,6 +331,8 @@
 <section class = "contact-us">
   <div class="container">
     <h2 class = "contact-title">Contact Us</h2>
+    
+    <div class="content-container">
     <div class ="form-container">
       <h3>Contact Form</h3>
         <form>
@@ -315,24 +351,85 @@
         </form>
       </div>
 
+      <div class = "contact-details">
+        <p class = "label">Address</p>
+        <p class = "address">20377 Evergreen Terrace Mountain View, California, USA </p>
 
+        <p class = "label phone-label">Phone</p>
+        <a class = "phone-number" href="#">232-232-2323</a>
+        
+        <p class = "label">Email Address</p>
+        <a class = "email" href="#">ouremail@domain.com</a>
+      </div>
 
     </div>
-
-
-
-
-
+    </div>
 </section>
 
 
 
+<!-- ----------------------------------------------------------------------- -->
+<!--                                Footer                                -->
+<!-- ----------------------------------------------------------------------- -->
+<footer>
+<div class = "content-container">
+<div class = "about-container">
+  <h5>About Stated</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+</div>
 
+<div class = "quick-links">
+  <h5>Quick Links</h5>
+  <ul>
+    <li ><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Testimonials</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</div>
+
+<div class = "subscribe">
+<h5>Subscribe to Our Newsletter</h5>
+<div class = "subscribe=container">
+  <input type = "text" placeholder="Enter Email" />
+  <button class = "btn">Send</button>
+</div>
+
+<div class = "follow">
+  <h5 class = "follow-title">Follow</h5>
+  <ul>
+    <li><a href = "#"><span><ion-icon name="logo-facebook"></ion-icon></span></a></li>
+    <li><a href = "#"><span><ion-icon name="logo-twitter"></ion-icon></span></a></li>
+    <li><a href = "#"><span><ion-icon name="logo-instagram"></ion-icon></span></a></li>
+    <li><a href = "#"><span><ion-icon name="logo-linkedin"></ion-icon></span></a></li>
+  </ul>
+</div>
+</div>
+</div>
+</footer>
+</section>
 
 
 
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  </body>
+
+
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                                JavaScript                                -->
+<!-- ----------------------------------------------------------------------- -->
+
+<script>
+
+
+
+
+
+
+
+</script>  
+</body>
 </html>

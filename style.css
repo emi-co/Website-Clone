@@ -79,6 +79,9 @@ body {
   color: white;
   position: relative;
   top: 40px;
+  display: inline-block;
+  transform: translateX(80%);
+  padding-bottom: 10px;
 }
 
 /*                     On scroll-down                                */
@@ -362,10 +365,6 @@ padding: 15px;
   margin-left: 1.5rem;
 }
 
-.services-card-right > p {
-
-}
-
 .services-card-right > a { 
   text-decoration: none;
   color: var(--orange);
@@ -435,6 +434,8 @@ margin: 0 auto;
   padding: 3rem;
   box-sizing: border-box;
   height: 0%;
+  display: grid;
+  grid-template-columns: (1 1fr);
 }
 
 .form-container > h3 {
@@ -465,6 +466,83 @@ margin: 0 auto;
 .form-container textarea {
   height: 170px;
   margin-bottom: 2rem;
-  resize: none; /*prevents user from resizing the box*/
+  resize: none; 
 }
 
+
+.contact-details { 
+  width: 38%; 
+  background-color: #fff;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  height: 0%;
+}
+
+.label { 
+  font-weight: 700;
+  display: block;
+  margin-top: 2rem;
+  color: #777;
+}
+
+.phone-label { 
+  margin-top: 0;
+}
+
+.address { 
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #f69314;
+}
+
+.contact-details a:hover { 
+  text-decoration: underline;
+}
+
+.content-container {
+  max-width: 1140px;
+  margin: 0 auto; 
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Footer                                */
+/* -------------------------------------------------------------------------- */
+
+footer {
+  background: #333;
+  padding: 8rem 0;
+}
+
+footer h5 { 
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  display: block;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+footer .content-container {
+  border-bottom: 1px solid #777;
+
+}
+
+.follow-title { 
+  margin-top: 1rem;
+}
+
+.quick-links { 
+  width: 16%;
+}
+
+.about-container { 
+  width: 47%;
+}
