@@ -143,6 +143,7 @@ a {
 .how-it-works {
   background-color: #f8f9fa;
   padding: 3rem 0;
+  margin-bottom: 5%;
 }
 
 
@@ -164,14 +165,11 @@ font-weight: 300;
   text-align: center;
 }
 
-.container h2 {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
- 
- }
 
  .how-it-works-title { 
   transform: translateX(40%);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
  }
 
 .step-container {
@@ -182,11 +180,24 @@ font-weight: 300;
 /*                                Properties                                */
 /* -------------------------------------------------------------------------- */
 .properties-title { 
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 
+}
+
+.subheading { 
+  margin-bottom: 2rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .properties {
   background-color: var(--white);
+  margin-bottom: 5%;
+
 }
 
 .property-container img { 
@@ -245,9 +256,37 @@ transform: translateX(100%);
  
 }
 
+
+/* -------------------------------------------------------------------------- */
+/*                                Agents                                */
+/* -------------------------------------------------------------------------- */
+
+.card-container { 
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 calc(30%-20px);
+
+}
+
 .card > img {
-  height: 500px; 
-  width: 400px;
+  height: 400px; 
+  width: 337px;
   object-fit: cover;
 
+}
+
+.card { 
+  margin: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 2rem;
+  padding-bottom: 2%;
+
+}
+
+.card-content { 
+  padding-left: 1rem;
+}
+
+.agents-title{
+  margin-bottom: 1rem;
 }
