@@ -6,7 +6,7 @@
 }
 
 /* -------------------------------------------------------------------------- */
-/*                               Resuable Styles                              */
+/*                               Reusable Styles                              */
 /* -------------------------------------------------------------------------- */
 :root {
   --gray: #474d52;
@@ -48,7 +48,16 @@ body {
   padding: 0 20px;
 }
 
-
+.btn {
+  background: #f69314;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  line-height: 1.5;
+  cursor: pointer;
+}
 
 
 
@@ -293,7 +302,7 @@ transform: translateX(100%);
 }
 
 /* -------------------------------------------------------------------------- */
-/*                                The Best                                */
+/*                                About Us                                */
 /* -------------------------------------------------------------------------- */
 .about-us { 
   margin-top: 5%;
@@ -362,3 +371,100 @@ padding: 15px;
   color: var(--orange);
  padding-top: 3rem;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                Testimonials                                */
+/* -------------------------------------------------------------------------- */
+
+.testimonials {
+margin-bottom: 4rem;
+}
+
+#testimonials-slider p {
+  font-size: 1rem;
+}
+
+.testimonials-caption img {
+  height: 5.7rem;
+  width: 5.5rem;
+  border-radius: 3rem;
+  object-fit: cover;
+
+}
+
+
+.testimonials-title {
+  text-align: center;
+}
+
+.testimonials-slider blockquote {
+  font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem auto 3rem;
+    max-width: 740px;
+}
+
+.testimonials-slider .testimonials-caption {
+width: 200px;
+margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+  float: left;
+  border-radius: 30px;
+  width: 60px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Contact Us                                */
+/* -------------------------------------------------------------------------- */
+.contact-us {
+  background: #f8f9fa;
+  padding: 4rem 0 8rem;
+}
+
+.contact-title { 
+  text-align: center;
+  margin-bottom: 4rem;
+  transform: translateX(50%,-50%);
+}
+
+.form-container {
+  width: 58%;
+  background: #fff;
+  padding: 3rem;
+  box-sizing: border-box;
+  height: 0%;
+}
+
+.form-container > h3 {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 2rem;
+}
+
+.form-container label { 
+  display: block; 
+  color: #000;
+  margin-top: 1rem;
+}
+
+.form-container input, .form-container textarea {
+  display: block;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  box-sizing: border-box;
+  height: 43px;
+  font-family: "Roboto", "Helvetica", "Sans-serif";
+  font-size: 1rem;
+  color: #495057;
+}
+
+.form-container textarea {
+  height: 170px;
+  margin-bottom: 2rem;
+  resize: none; /*prevents user from resizing the box*/
+}
+
