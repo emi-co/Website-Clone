@@ -197,6 +197,36 @@ font-weight: 300;
 
 }
 
+.properties .container:before { 
+  content: "/";
+  position: absolute;
+  right: 80px;
+  top: 18px;
+  color: #999;
+}
+
+.properties-slider a.slick-arrow { 
+  color: #000;
+  position: absolute;
+  top: -78px;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+
+}
+
+
+.properties-slider a.slick-prev { 
+right: 80px;
+
+}
+
+.properties-slider .slick-slide {
+  padding: 0 15px;
+
+}
+
 .subheading { 
   margin-bottom: 2rem;
   display: block;
